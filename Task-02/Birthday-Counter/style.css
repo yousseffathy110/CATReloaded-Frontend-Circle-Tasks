@@ -7,3 +7,64 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  color: rgb(165, 15, 93);
+}
+label {
+  font-size: 18px;
+  color: #333;
+}
+input[type="date"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: calc(100% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 12px 24px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+button:hover {
+  background-color: #ff4136;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#countdown {
+  margin: 20px 0;
+  color: rgb(205, 68, 0);
+  font-size: 1.5rem;
+}
